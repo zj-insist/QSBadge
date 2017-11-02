@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QSBadgeButton_Example' do
+  pod 'QSBadgeButton', :path => '../'
+
+  target 'QSBadgeButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
