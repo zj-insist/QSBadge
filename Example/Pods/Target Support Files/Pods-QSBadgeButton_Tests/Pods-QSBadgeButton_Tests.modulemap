@@ -1,0 +1,6 @@
+framework module Pods_QSBadgeButton_Tests {
+  umbrella header "Pods-QSBadgeButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

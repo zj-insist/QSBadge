@@ -1,0 +1,6 @@
+framework module QSBadgeButton {
+  umbrella header "QSBadgeButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

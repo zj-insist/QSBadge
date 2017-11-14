@@ -7,6 +7,7 @@
 //
 
 #import "QSViewController.h"
+#import <QSBadgeButton/QSBadge.h>
 
 @interface QSViewController ()
 
@@ -14,16 +15,16 @@
 
 @implementation QSViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(150, 200, 50, 50)];
+    btn.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:btn];
+    
+    QSBDConfiguration *con = [[QSBDConfiguration alloc] initWithBadgeStyle:QSBDViewBadgeStyleTextWithBorder];
+    [btn qsbd_showBadgeWithConfiguration:con message:@"11"];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

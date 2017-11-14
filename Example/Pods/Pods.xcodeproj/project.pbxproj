@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0FDA1AEEB3F7C3660C929A2900EA3B /* QSBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B14226EE613493C3DCA151642AA4172D /* QSBadgeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F663E6637271EFC2D9D3CE146A070C7 /* Pods-QSBadgeButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6EAED807B76D3524C62FC27217DF99 /* Pods-QSBadgeButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		277E34634F5A6D132D2CF1E7960273C9 /* UIView+QSBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E22C0B9F0EA3CAE1490C8DAF457495A /* UIView+QSBadge.m */; };
+		408AC73FCDE8605A536624022769B4D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		503F242E6A7030E4F69B1538BF9FBFA4 /* QSBadgeButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D362A1F13B13658D603E4F6C78142A /* QSBadgeButton-dummy.m */; };
+		5380CD98C8BA8A99345829174E7D2617 /* Pods-QSBadgeButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 052C33FDAC7EA7F71219EE0C0F4B13DC /* Pods-QSBadgeButton_Tests-dummy.m */; };
+		5E35034CCFCA2E874926CC3369E42BCB /* QSBDConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 47FDEC293A96F4AAAB0A1002D9BF774E /* QSBDConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C56BD1D0BB97D4E9C18C9C6AA35169E /* QSBDConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 436AD8440FA2E271EF59633D27565A03 /* QSBDConfiguration.m */; };
+		842D063C6D7B57A3F25FB762FD9DC1F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9C220A50D86611573BAE204BC98894B4 /* QSBadgeButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F24F637BF5619BFB5503FD1C5CD86D92 /* QSBadgeButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A03C3F714BA04A3942B82E87FFF5E437 /* QSBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBCAFBDFA2340B01D1E8CCB69E98E59 /* QSBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADDEAB66E7861EA896493815B9A358B6 /* Pods-QSBadgeButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6805104A576C4E844293A65546B13D8 /* Pods-QSBadgeButton_Example-dummy.m */; };
+		CA63A079B40BD7AD89A7AA1C9431F3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E4A927B06920AB7E6B8A3328F733121E /* Pods-QSBadgeButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19338403A154F7023495C9E0F076D7B2 /* Pods-QSBadgeButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F98958DAE22B6DD780877B224B4BDAD2 /* UIView+QSBadge.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E3DC267B3E7170A588F1D45554B157E /* UIView+QSBadge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147161380F8C637D3E5D0CAE541D2AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D82147E694DF4F1B456B327C416681;
+			remoteInfo = QSBadgeButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052C33FDAC7EA7F71219EE0C0F4B13DC /* Pods-QSBadgeButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSBadgeButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		0685DDA16F83B527D6AF83F61320179D /* Pods_QSBadgeButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSBadgeButton_Tests.framework; path = "Pods-QSBadgeButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F6EAED807B76D3524C62FC27217DF99 /* Pods-QSBadgeButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSBadgeButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		14E85AEC03144EDFF1E84D3ACD8B46FE /* Pods-QSBadgeButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSBadgeButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		19338403A154F7023495C9E0F076D7B2 /* Pods-QSBadgeButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSBadgeButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		1BFBD1CAA84054471BFB631240E74F90 /* Pods-QSBadgeButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSBadgeButton_Example-resources.sh"; sourceTree = "<group>"; };
+		252934ABD442AC6F241C5B2E026BCAA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E22C0B9F0EA3CAE1490C8DAF457495A /* UIView+QSBadge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+QSBadge.m"; path = "QSBadgeButton/Classes/UIView+QSBadge.m"; sourceTree = "<group>"; };
+		3F0E95401483F0E199F3D932954FB954 /* Pods-QSBadgeButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QSBadgeButton_Example.modulemap"; sourceTree = "<group>"; };
+		436AD8440FA2E271EF59633D27565A03 /* QSBDConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSBDConfiguration.m; path = QSBadgeButton/Classes/QSBDConfiguration.m; sourceTree = "<group>"; };
+		44FB8863CF41F34E3936C048DB9CB7E3 /* QSBadgeButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QSBadgeButton.modulemap; sourceTree = "<group>"; };
+		47FDEC293A96F4AAAB0A1002D9BF774E /* QSBDConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSBDConfiguration.h; path = QSBadgeButton/Classes/QSBDConfiguration.h; sourceTree = "<group>"; };
+		4CBB5BD5F5624A439EBE4F24F19488F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C7BA73CCCADC6CB0D342770C29ADD1 /* Pods-QSBadgeButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSBadgeButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5B6402BC2BB184BBBEA6E22B01725EDA /* QSBadgeButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QSBadgeButton.xcconfig; sourceTree = "<group>"; };
+		5E444B88ED11C9066FDB59968F769DC2 /* Pods-QSBadgeButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSBadgeButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6EB40866EE22A02F4D6593EDFFEB5F1C /* Pods-QSBadgeButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSBadgeButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6EF4888E9073C3475B7054714180E6AC /* Pods-QSBadgeButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSBadgeButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		72D5709BD0F57A12C3FEAAA38FF8C21C /* Pods-QSBadgeButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSBadgeButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7576D6DBE2FB02D8382956289181CC8F /* Pods-QSBadgeButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSBadgeButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7DBCAFBDFA2340B01D1E8CCB69E98E59 /* QSBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSBadge.h; path = QSBadgeButton/Classes/QSBadge.h; sourceTree = "<group>"; };
+		8BD374E62D6FB8698F42C1BED0C3AB00 /* Pods_QSBadgeButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QSBadgeButton_Example.framework; path = "Pods-QSBadgeButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3DC267B3E7170A588F1D45554B157E /* UIView+QSBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+QSBadge.h"; path = "QSBadgeButton/Classes/UIView+QSBadge.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B391D79CDDCB41DFF0B057FE9B3104A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D8FAAABBE2B142A99887F376DA555E /* Pods-QSBadgeButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSBadgeButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A3F2A9F2C15D9AB97068BCCF21AD3E5E /* QSBadgeButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSBadgeButton-prefix.pch"; sourceTree = "<group>"; };
+		A6805104A576C4E844293A65546B13D8 /* Pods-QSBadgeButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSBadgeButton_Example-dummy.m"; sourceTree = "<group>"; };
+		B14226EE613493C3DCA151642AA4172D /* QSBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSBadgeProtocol.h; path = QSBadgeButton/Classes/QSBadgeProtocol.h; sourceTree = "<group>"; };
+		B60054306F7508919DEECB6300F0FF6E /* QSBadgeButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QSBadgeButton.framework; path = QSBadgeButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5E460487D850663377C82B10CF4B3A /* Pods-QSBadgeButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSBadgeButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C31A1CC874CC4047BAE7358037623160 /* Pods-QSBadgeButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSBadgeButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D450991D264E702F846641DD1317A411 /* Pods-QSBadgeButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QSBadgeButton_Tests.modulemap"; sourceTree = "<group>"; };
+		D49D742EB63F9A0608E0B4B1DCE2AB9B /* Pods-QSBadgeButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSBadgeButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E2D362A1F13B13658D603E4F6C78142A /* QSBadgeButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QSBadgeButton-dummy.m"; sourceTree = "<group>"; };
+		F24F637BF5619BFB5503FD1C5CD86D92 /* QSBadgeButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSBadgeButton-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1255B70857A070D6527DB1E628D4D733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842D063C6D7B57A3F25FB762FD9DC1F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E1DE38C0C4336DCF41C826D76BB7C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408AC73FCDE8605A536624022769B4D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5C38C2C6B8DD56F2723351C22CFEF94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63A079B40BD7AD89A7AA1C9431F3B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54E90E8614717A7B5D7B8512362C3C63 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				252934ABD442AC6F241C5B2E026BCAA4 /* Info.plist */,
+				44FB8863CF41F34E3936C048DB9CB7E3 /* QSBadgeButton.modulemap */,
+				5B6402BC2BB184BBBEA6E22B01725EDA /* QSBadgeButton.xcconfig */,
+				E2D362A1F13B13658D603E4F6C78142A /* QSBadgeButton-dummy.m */,
+				A3F2A9F2C15D9AB97068BCCF21AD3E5E /* QSBadgeButton-prefix.pch */,
+				F24F637BF5619BFB5503FD1C5CD86D92 /* QSBadgeButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QSBadgeButton";
+			sourceTree = "<group>";
+		};
+		63E7F60850CC4644262D4ACBBA9473B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BD374E62D6FB8698F42C1BED0C3AB00 /* Pods_QSBadgeButton_Example.framework */,
+				0685DDA16F83B527D6AF83F61320179D /* Pods_QSBadgeButton_Tests.framework */,
+				B60054306F7508919DEECB6300F0FF6E /* QSBadgeButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7744C7C8C342AA1F1798D46B55DA05E8 /* Pods-QSBadgeButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9B391D79CDDCB41DFF0B057FE9B3104A /* Info.plist */,
+				3F0E95401483F0E199F3D932954FB954 /* Pods-QSBadgeButton_Example.modulemap */,
+				6EF4888E9073C3475B7054714180E6AC /* Pods-QSBadgeButton_Example-acknowledgements.markdown */,
+				A1D8FAAABBE2B142A99887F376DA555E /* Pods-QSBadgeButton_Example-acknowledgements.plist */,
+				A6805104A576C4E844293A65546B13D8 /* Pods-QSBadgeButton_Example-dummy.m */,
+				D49D742EB63F9A0608E0B4B1DCE2AB9B /* Pods-QSBadgeButton_Example-frameworks.sh */,
+				1BFBD1CAA84054471BFB631240E74F90 /* Pods-QSBadgeButton_Example-resources.sh */,
+				19338403A154F7023495C9E0F076D7B2 /* Pods-QSBadgeButton_Example-umbrella.h */,
+				BD5E460487D850663377C82B10CF4B3A /* Pods-QSBadgeButton_Example.debug.xcconfig */,
+				6EB40866EE22A02F4D6593EDFFEB5F1C /* Pods-QSBadgeButton_Example.release.xcconfig */,
+			);
+			name = "Pods-QSBadgeButton_Example";
+			path = "Target Support Files/Pods-QSBadgeButton_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FAC4113B7C9E73219ED4F902B214B0B7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				63E7F60850CC4644262D4ACBBA9473B7 /* Products */,
+				F6DF0E27F18EE05AA85D3F40A7B435B8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D478914D7D313EF7085E7776E2130639 /* QSBadgeButton */ = {
+			isa = PBXGroup;
+			children = (
+				7DBCAFBDFA2340B01D1E8CCB69E98E59 /* QSBadge.h */,
+				B14226EE613493C3DCA151642AA4172D /* QSBadgeProtocol.h */,
+				47FDEC293A96F4AAAB0A1002D9BF774E /* QSBDConfiguration.h */,
+				436AD8440FA2E271EF59633D27565A03 /* QSBDConfiguration.m */,
+				8E3DC267B3E7170A588F1D45554B157E /* UIView+QSBadge.h */,
+				3E22C0B9F0EA3CAE1490C8DAF457495A /* UIView+QSBadge.m */,
+				54E90E8614717A7B5D7B8512362C3C63 /* Support Files */,
+			);
+			name = QSBadgeButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F2FC7B0136F5BA4274BEBF326F8C9C4C /* Pods-QSBadgeButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CBB5BD5F5624A439EBE4F24F19488F1 /* Info.plist */,
+				D450991D264E702F846641DD1317A411 /* Pods-QSBadgeButton_Tests.modulemap */,
+				C31A1CC874CC4047BAE7358037623160 /* Pods-QSBadgeButton_Tests-acknowledgements.markdown */,
+				14E85AEC03144EDFF1E84D3ACD8B46FE /* Pods-QSBadgeButton_Tests-acknowledgements.plist */,
+				052C33FDAC7EA7F71219EE0C0F4B13DC /* Pods-QSBadgeButton_Tests-dummy.m */,
+				53C7BA73CCCADC6CB0D342770C29ADD1 /* Pods-QSBadgeButton_Tests-frameworks.sh */,
+				5E444B88ED11C9066FDB59968F769DC2 /* Pods-QSBadgeButton_Tests-resources.sh */,
+				0F6EAED807B76D3524C62FC27217DF99 /* Pods-QSBadgeButton_Tests-umbrella.h */,
+				72D5709BD0F57A12C3FEAAA38FF8C21C /* Pods-QSBadgeButton_Tests.debug.xcconfig */,
+				7576D6DBE2FB02D8382956289181CC8F /* Pods-QSBadgeButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-QSBadgeButton_Tests";
+			path = "Target Support Files/Pods-QSBadgeButton_Tests";
+			sourceTree = "<group>";
+		};
+		F6DF0E27F18EE05AA85D3F40A7B435B8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7744C7C8C342AA1F1798D46B55DA05E8 /* Pods-QSBadgeButton_Example */,
+				F2FC7B0136F5BA4274BEBF326F8C9C4C /* Pods-QSBadgeButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FAC4113B7C9E73219ED4F902B214B0B7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D478914D7D313EF7085E7776E2130639 /* QSBadgeButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17898873A215EF30CD3D3DB3863BDDE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03C3F714BA04A3942B82E87FFF5E437 /* QSBadge.h in Headers */,
+				9C220A50D86611573BAE204BC98894B4 /* QSBadgeButton-umbrella.h in Headers */,
+				0D0FDA1AEEB3F7C3660C929A2900EA3B /* QSBadgeProtocol.h in Headers */,
+				5E35034CCFCA2E874926CC3369E42BCB /* QSBDConfiguration.h in Headers */,
+				F98958DAE22B6DD780877B224B4BDAD2 /* UIView+QSBadge.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC943882D4454CC3C5948A328C401990 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F663E6637271EFC2D9D3CE146A070C7 /* Pods-QSBadgeButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE252CE7CE3A895C1CA692490949FD2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4A927B06920AB7E6B8A3328F733121E /* Pods-QSBadgeButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		55D82147E694DF4F1B456B327C416681 /* QSBadgeButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A020F9A3FFD169D8777C452615D396 /* Build configuration list for PBXNativeTarget "QSBadgeButton" */;
+			buildPhases = (
+				86B930E88B4CE34D84D88D4C88594F3D /* Sources */,
+				B4E1DE38C0C4336DCF41C826D76BB7C4 /* Frameworks */,
+				17898873A215EF30CD3D3DB3863BDDE4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QSBadgeButton;
+			productName = QSBadgeButton;
+			productReference = B60054306F7508919DEECB6300F0FF6E /* QSBadgeButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0B621D41838A32C91299E2E909BC374 /* Pods-QSBadgeButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76AD534B25824DE61626EBF7E2EC3707 /* Build configuration list for PBXNativeTarget "Pods-QSBadgeButton_Example" */;
+			buildPhases = (
+				084E494DB8CE02784E41ABA3422FF970 /* Sources */,
+				1255B70857A070D6527DB1E628D4D733 /* Frameworks */,
+				EE252CE7CE3A895C1CA692490949FD2C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF988804D83FB302B4BFC91957F8660A /* PBXTargetDependency */,
+			);
+			name = "Pods-QSBadgeButton_Example";
+			productName = "Pods-QSBadgeButton_Example";
+			productReference = 8BD374E62D6FB8698F42C1BED0C3AB00 /* Pods_QSBadgeButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F15A2269CF3DDA1A4C74CE91DDA46F46 /* Pods-QSBadgeButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABB0BB9BBAB0EFDB5169511D369CB38 /* Build configuration list for PBXNativeTarget "Pods-QSBadgeButton_Tests" */;
+			buildPhases = (
+				090A5E43055DD02FA2FC4C73DF309E43 /* Sources */,
+				E5C38C2C6B8DD56F2723351C22CFEF94 /* Frameworks */,
+				DC943882D4454CC3C5948A328C401990 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QSBadgeButton_Tests";
+			productName = "Pods-QSBadgeButton_Tests";
+			productReference = 0685DDA16F83B527D6AF83F61320179D /* Pods_QSBadgeButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 63E7F60850CC4644262D4ACBBA9473B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0B621D41838A32C91299E2E909BC374 /* Pods-QSBadgeButton_Example */,
+				F15A2269CF3DDA1A4C74CE91DDA46F46 /* Pods-QSBadgeButton_Tests */,
+				55D82147E694DF4F1B456B327C416681 /* QSBadgeButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		084E494DB8CE02784E41ABA3422FF970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADDEAB66E7861EA896493815B9A358B6 /* Pods-QSBadgeButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		090A5E43055DD02FA2FC4C73DF309E43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5380CD98C8BA8A99345829174E7D2617 /* Pods-QSBadgeButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B930E88B4CE34D84D88D4C88594F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503F242E6A7030E4F69B1538BF9FBFA4 /* QSBadgeButton-dummy.m in Sources */,
+				7C56BD1D0BB97D4E9C18C9C6AA35169E /* QSBDConfiguration.m in Sources */,
+				277E34634F5A6D132D2CF1E7960273C9 /* UIView+QSBadge.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF988804D83FB302B4BFC91957F8660A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QSBadgeButton;
+			target = 55D82147E694DF4F1B456B327C416681 /* QSBadgeButton */;
+			targetProxy = 147161380F8C637D3E5D0CAE541D2AEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12A22B4D158FDDE4FC77AF1EB3B55FE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6402BC2BB184BBBEA6E22B01725EDA /* QSBadgeButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QSBadgeButton/QSBadgeButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QSBadgeButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QSBadgeButton/QSBadgeButton.modulemap";
+				PRODUCT_NAME = QSBadgeButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		47F69202223DF6353F68036BED0E58E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EB40866EE22A02F4D6593EDFFEB5F1C /* Pods-QSBadgeButton_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSBadgeButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSBadgeButton_Example/Pods-QSBadgeButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QSBadgeButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48ABA1D847044B57DD97F67C18EC8ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D5709BD0F57A12C3FEAAA38FF8C21C /* Pods-QSBadgeButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSBadgeButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSBadgeButton_Tests/Pods-QSBadgeButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QSBadgeButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67F3BF67FD4C57916E9E40B8BD70254D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6402BC2BB184BBBEA6E22B01725EDA /* QSBadgeButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QSBadgeButton/QSBadgeButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QSBadgeButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QSBadgeButton/QSBadgeButton.modulemap";
+				PRODUCT_NAME = QSBadgeButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8D69DF24552102D062FA822C2E4DB306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7576D6DBE2FB02D8382956289181CC8F /* Pods-QSBadgeButton_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSBadgeButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSBadgeButton_Tests/Pods-QSBadgeButton_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QSBadgeButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE8B0484D47DE6015EA09D9488BCD290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5E460487D850663377C82B10CF4B3A /* Pods-QSBadgeButton_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSBadgeButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSBadgeButton_Example/Pods-QSBadgeButton_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QSBadgeButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76AD534B25824DE61626EBF7E2EC3707 /* Build configuration list for PBXNativeTarget "Pods-QSBadgeButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8B0484D47DE6015EA09D9488BCD290 /* Debug */,
+				47F69202223DF6353F68036BED0E58E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A020F9A3FFD169D8777C452615D396 /* Build configuration list for PBXNativeTarget "QSBadgeButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12A22B4D158FDDE4FC77AF1EB3B55FE1 /* Debug */,
+				67F3BF67FD4C57916E9E40B8BD70254D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABB0BB9BBAB0EFDB5169511D369CB38 /* Build configuration list for PBXNativeTarget "Pods-QSBadgeButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48ABA1D847044B57DD97F67C18EC8ED0 /* Debug */,
+				8D69DF24552102D062FA822C2E4DB306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

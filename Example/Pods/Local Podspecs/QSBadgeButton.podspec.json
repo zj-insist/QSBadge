@@ -1,0 +1,22 @@
+{
+  "name": "QSBadgeButton",
+  "version": "0.1.0",
+  "summary": "A short description of QSBadgeButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zj_lostself@163.com/QSBadgeButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zj_lostself@163.com": "zj_lostself@163.com"
+  },
+  "source": {
+    "git": "https://github.com/zj_lostself@163.com/QSBadgeButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QSBadgeButton/Classes/**/*"
+}
