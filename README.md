@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # QSBadgeButton
 
 [![CI Status](http://img.shields.io/travis/zj_lostself@163.com/QSBadgeButton.svg?style=flat)](https://travis-ci.org/zj_lostself@163.com/QSBadgeButton)
